@@ -19,7 +19,7 @@ body {
     border-radius: 30px;
 }
 
-h1, h2, p, ul {
+h2, ul {
     text-align: center;
 }
 
@@ -35,10 +35,11 @@ h1 {
     border-radius: 30px;
     padding: 40px;
     margin-right: 30px;
+    width: 35%;
 }
 
 h2 {
-    padding-bottom: 40px;
+    padding-bottom: 20px;
 }
 
 ul {
@@ -46,19 +47,47 @@ ul {
 }
 
 img {
-    margin: 50px auto;
+    margin: 30px auto;
     border-radius: 50px;
     display: block;
-    width: 90%;
     max-width: 100%;
     height: auto;
 }
 
 .steps {
-    padding: 40px;
+    padding: 10px;
     border-left: 1px solid #000;
+    width: 65%;
+}
+
+ol {
+    margin-left: 40px;
 }
 
 .in-a-row {
     display: flex;
+    flex: 1 0 auto;
+}
+
+.heading {
+    width: 75%;
+}
+
+.link {
+    width: 25%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+    border: 1px solid #000;
+    color: #000;
+    padding: 10px;
+}
+
+a:hover {
+    opacity: 70%;
 }
