@@ -12,23 +12,29 @@ body {
 }
 
 .container {
-    width: 60%;
+    width: 50%;
     margin: auto;
     padding: 50px;
     background-color: hsl(0, 0%, 95%);
     border-radius: 30px;
 }
 
+h1, h2, p, ul {
+    text-align: center;
+}
+
 h1 {
     font-family: "Permanent Marker", cursive;
     font-size: 72px;
     font-weight: 400;
+    margin-bottom: 50px;
 }
 
 .in-a-row {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: 50px;
 }
 
 .ingredients {
@@ -39,8 +45,27 @@ h1 {
     margin-left: 2%;
 }
 
+h2 {
+    padding-bottom: 40px;
+}
+
+ul {
+    list-style: none;
+}
+
+ol {
+    padding-left: 100px;
+}
+
 img {
     border-radius: 30px;
     display: block;
     width: 49%;
+}
+
+.steps {
+    background-color: hsl(0, 0%, 85%);
+    border-radius: 30px;
+    padding: 40px;
+    margin: 50px;
 }
