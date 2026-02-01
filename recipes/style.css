@@ -27,22 +27,14 @@ h1 {
     font-family: "Permanent Marker", cursive;
     font-size: 72px;
     font-weight: 400;
-    margin-bottom: 50px;
-}
-
-.in-a-row {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 50px;
+    margin-bottom: 10px;
 }
 
 .ingredients {
     background-color: hsl(0, 0%, 85%);
     border-radius: 30px;
     padding: 40px;
-    width: 49%;
-    margin-left: 2%;
+    margin-right: 30px;
 }
 
 h2 {
@@ -53,19 +45,20 @@ ul {
     list-style: none;
 }
 
-ol {
-    padding-left: 100px;
-}
-
 img {
-    border-radius: 30px;
+    margin: 50px auto;
+    border-radius: 50px;
     display: block;
-    width: 49%;
+    width: 90%;
+    max-width: 100%;
+    height: auto;
 }
 
 .steps {
-    background-color: hsl(0, 0%, 85%);
-    border-radius: 30px;
     padding: 40px;
-    margin: 50px;
+    border-left: 1px solid #000;
+}
+
+.in-a-row {
+    display: flex;
 }
