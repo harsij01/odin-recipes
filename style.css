@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Fascinate+Inline&family=Permanent+Marker&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-size:28px;
+    width: 100vw;
+    background-color: #fff;
+    text-align: center;
+    padding: 75px;
+}
+
+h1 {
+    font-family: "Permanent Marker", cursive;
+    font-size: 72px;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+.container {
+    width: 65%;
+    margin: auto;
+    padding: 50px;
+    background-color: hsl(0, 0%, 95%);
+    background-color: hsl(0, 0%, 95%);
+    border-radius: 30px;
+}
+
+.item-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.item {
+    overflow: hidden;
+    width: 400px;
+    border-radius: 30px;
+    margin: 30px;
+    border-radius: 30px;
+    border-radius: 30px;
+}
+
+img {
+    overflow: hidden;
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+.recipe {
+    background-color: hsl(0, 0%, 85%);
+    padding: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+a:hover {
+    opacity: 75%;
+}
