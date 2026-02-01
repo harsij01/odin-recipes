@@ -1,14 +1,46 @@
 @import url('https://fonts.googleapis.com/css2?family=Fascinate+Inline&family=Permanent+Marker&display=swap');
 
+* {
+    margin: 0;
+    padding: 0;
+}
+
 body {
     font-size:28px;
+    width: 100vw;
+    background-color: #fff;
+}
+
+.container {
+    width: 60%;
+    margin: auto;
+    padding: 50px;
+    background-color: hsl(0, 0%, 95%);
+    border-radius: 30px;
 }
 
 h1 {
     font-family: "Permanent Marker", cursive;
     font-size: 72px;
     font-weight: 400;
-    margin: 0;
-    padding: 0;
 }
 
+.in-a-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ingredients {
+    background-color: hsl(0, 0%, 85%);
+    border-radius: 30px;
+    padding: 40px;
+    width: 49%;
+    margin-left: 2%;
+}
+
+img {
+    border-radius: 30px;
+    display: block;
+    width: 49%;
+}
